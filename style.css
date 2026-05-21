@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+header nav{
+    /* background-color: aqua; */
+    position: absolute;
+    width: 100%;
+    padding:20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+  
+}
+
+header nav .nav-links{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: rgb(227, 88, 88);
+    font-weight: 700;
+
+}
+header nav .LOGO{
+    color: rgb(49, 197, 197);
+    font-weight: 900;
+    font-size: 1.7rem;
+}
+
+header .nav-links li a:hover{
+    color: pink
+
+}
+
+.hero{
+    /* background-color: aquamarine; */
+    background: url(./2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: rgb(34, 34, 171);
+    padding: 120px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.hero-content h1{
+    font-size: 30px;
+    font-size: 3rem;
+}
+
+.hero-content p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+
+
+.articles{
+    text-align: center;
+    padding: 10px 30px ;
+    background-color: rgb(179, 172, 159);
+    height: 100%;
+    /* position: absolute; */
+}
+
+.articles h2{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.article-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    height : auto;
+    margin-top: 30px;
+}
+
+.card{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 70px rgb(19, 19, 195);
+    width: 300px;
+    height: 70%;
+}
+
+
+.card img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+
+.card p{
+    padding: 80px 0px ;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    color: rgb(27, 3, 3);
+}
+
+
+
+
+.about{
+    display:flex;
+    justify-content: center;
+    height:100%;
+    width:100%;
+    background-color: rgb(204, 192, 169);
+    padding-top: 80px;
+
+}
+
+
+.about .about-image img{
+    width: 800px;
+    height: 450px;
+    border-radius: 10px;
+
+}
+
+
+.about .about-content{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+
+}
+
+.about .about-text h2{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.about .about-text p{
+    font-size: 1.25rem;
+    line-height: 1.4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.form-section{
+    text-align: center;
+    align-items: center;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(115, 115, 231);
+
+    
+}
+
+.form-section input{
+    padding: 10px 15px;
+    max-width: 250px;
+    background-color: rgb(203, 203, 235);
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+
+}
+
+
+.form-section h1{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+
+footer{
+    background-color: rgb(179, 172, 159);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px 100px
+}
+
+footer .social-icon{
+    display: flex;
+    gap: 30px;
+}
+
+footer .footer-links {
+    display: flex;
+    gap: 30px;
+}
+
+
+footer .footer-links li{
+    list-style: none;
+}
+
+
+footer .footer-links a{
+    text-decoration: none;
+    color: rgb(27, 3, 3);
+    font-weight: 800;
+
+}
+
+
